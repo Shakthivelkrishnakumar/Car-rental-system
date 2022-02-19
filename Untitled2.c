@@ -2,7 +2,7 @@
 int main()
 {
 	int a[10][3]={{101,2,2},{102,4,1},{103,2,1},{104,4,2},{105,4,2},{106,2,1},{107,2,2},{108,4,1},{109,4,1},{110,2,1}};
-	//0-vehicle id;1-type; 2-avaibility.
+	//column 0-vehicle id;1-type; 2-avaibility(1-not available/2-available).
 	int n,i,j;
 	int x,y,z;
 	do
